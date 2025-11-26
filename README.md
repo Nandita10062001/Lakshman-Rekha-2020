@@ -37,16 +37,6 @@ During the COVID-19 pandemic, hospitals needed a low-cost way to track quarantin
 
 ---
 
-## 📺 Demo Videos
-
-### 🔧 Geofence & Location Setup  
-https://github.com/Nandita10062001/Lakshman-Rekha-2020/issues/2#issue-3668546368
-
-### 📡 End-to-End Tracking Demo  
-https://github.com/Nandita10062001/Lakshman-Rekha-2020/issues/1#issue-3668545099
-
----
-
 ## 🧱 System Architecture
 
 ### 🏥 1. LakshmanRekha (Django Web App)
@@ -75,6 +65,56 @@ Handles:
 - **Python Libraries:** `numpy`, `opencv-python`, `Shapely`, `Pillow`, `playsound`, `plyer`
 
 ---
+
+## 🔧 Installation
+
+Clone the repo and run -
+- For windows:
+```
+pip install -r requirements.txt
+```
+
+#### ⚙️ Hardware
+Change the ip in `Jatayu/user_validation` on line 4 and `Jatayu/wifi_functions` on line 36 and line 58. Then connect NodeMCU to your pc and upload the code in the folder.<br>
+Then your NodeMCU will go into access point mode if it fails to connect to a wifi. When it does, open your browser and type `http://192.168.4.1/` and hit enter.<br>
+Then enter the `WiFi` and `Patient/User` credentials and hit submit. This will save the data to the eeprom of the NodeMCU.
+
+#### 💻 Software
+
+Download and install xampp. Start the xampp control panel and start Apache and MySQL. Then open your browser and type`http://localhost/phpmyadmin/`.<br>
+Then select `new` and create a new database named `lakshmanrekha`.
+
+Once done, run the following commands to run the website -
+```
+cd LakshmanRekha/
+python manage.py runserver
+```
+
+## 📈 How It Works
+<br>
+Location Setup:<br>
+
+
+
+
+
+
+
+
+
+Working:<br>
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 🎉 Acknowledgment
 
