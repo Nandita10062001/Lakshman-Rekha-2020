@@ -94,7 +94,7 @@ python manage.py runserver
 <br>
 Location Setup:<br>
 
-
+https://github.com/user-attachments/assets/34b80ee4-221d-49b0-914d-79cbc06ad54e
 
 
 
