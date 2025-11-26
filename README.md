@@ -66,7 +66,21 @@ Handles:
 - AP-mode configuration portal  
 
 ---
+## 🧰 Tech Stack
 
-## 🏗 Project Structure
+- **Backend:** Django 3.2  
+- **Database:** MySQL  
+- **Frontend:** Django Templates + JS  
+- **IoT Hardware:** ESP8266 (NodeMCU / ESP-12E)  
+- **Python Libraries:** `numpy`, `opencv-python`, `Shapely`, `Pillow`, `playsound`, `plyer`
+
+---
+
+## 🎉 Acknowledgment
+
+This project was created for Deep Blue Season 6, a national-level hackathon by Mastek.
+Our team proudly qualified for the semifinals, and this solution was built end-to-end during the event.
+
+
 
 
